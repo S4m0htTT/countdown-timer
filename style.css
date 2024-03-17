@@ -4,8 +4,19 @@
     box-sizing: border-box;
 }
 
-.content{
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+body{
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 700;
+}
+
+.content {
     height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .attribution {
@@ -38,4 +49,16 @@ body {
     background-color: hsl(234, 17%, 12%);
     background-image: url("images/bg-stars.svg");
     overflow: hidden;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 3vw;
+    text-align: center;
+}
+
+#timer{
+    display: flex;
+    flex-direction: row;
+    color: hsl(345, 95%, 68%);
 }
